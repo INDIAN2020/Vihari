@@ -8,8 +8,10 @@ function codingmarker() {
             <script type="text/javascript">
             jQuery(document).ready( function($) {
 
-                /**
-                 * Adjust visibility of the meta box at startup
+                /*
+                *----------------------------------------------------------------------
+                * Adjust visibility of the meta box at startup
+                *----------------------------------------------------------------------
                 */
                 if($('#page_template').val() == 'page-wpse-53486.php') {
                     // show the meta box

@@ -1,5 +1,5 @@
 <?php 
-/**
+/*
  * Plugin Name: Vihari Booking
  * Plugin URI: http://codingmarker.com
  * Description: Your extension's description text.
@@ -56,8 +56,9 @@ if ( ! function_exists( 'codingmarker_load_files' ) ) {
 				$includes
 			);
 
-			foreach ( $includes as $key => $path )
+			foreach ( $includes as $key => $path ){
 				require_once $path;
+			}
 			
 		}
 }
